@@ -1,0 +1,40 @@
+body {
+    padding: 5%;
+    text-align: center;
+}
+
+.link-home {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.article-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.control-label {
+    float: left;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.text-hidden {
+    visibility: hidden;
+  }
+  
+  .text-revealed {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    visibility: visible;
+  }
